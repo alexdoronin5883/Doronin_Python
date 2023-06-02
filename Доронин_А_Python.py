@@ -21,6 +21,7 @@ else:
 
 count_elements = int(input("Введите кол-во элементов массива: "))
 array = [int(input("Введите число: "))for i in range(count_elements)]
+print(array)
 for i in array:
    if (i % 3 == 0):
       print("Элемент массива кратный 3: ", i)
